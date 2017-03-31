@@ -2,7 +2,7 @@
 ## 这些PHP函数你应该惠存，以备不时之需
 
 * PHP加密/解密  使用的是base64和md5
-
+------------------------------------
 ```php
 // PHP加密/解密  使用的是base64和md5
 function encryptDecrypt($key, $string, $decrypt){ 

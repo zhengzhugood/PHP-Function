@@ -21,6 +21,7 @@ echo encryptDecrypt('password', 'Helloweba',0);
 echo encryptDecrypt('password', 'z0JAx4qMwcF+db5TNbp/xwdUM84snRsXvvpXuaCa4Bk=',1);
 ```
 
+
 * **生成随机字符串**
 
 ```php
@@ -35,6 +36,7 @@ function generateRandomString($length = 10) {
 }
 ```
 
+
 * **得到文件扩展名**
 
 ```php
@@ -48,6 +50,7 @@ function getExtension($filename){
 $filename = 'mydoc.doc'; 
 echo getExtension($filename);
 ```
+
 
 * **把获取的文件大小结果进行格式化**
 
@@ -67,6 +70,7 @@ $thefile = filesize('test_file.mp3');
 echo formatSize($thefile);
 ```
 
+
 * **替换标签**
 
 ```php
@@ -82,6 +86,7 @@ $replace_array = array('{b}' => '','{/b}' => '','{br}' => '
 '); 
 echo stringParser($string,$replace_array);
 ```
+
 
 * **获取文件目录列表**
 
@@ -102,6 +107,7 @@ function listDirFiles($DirPath){
 listDirFiles('home/some_folder/');
 ```
 
+
 * **获取当前页面的URL**
 
 ```php
@@ -118,6 +124,7 @@ function curPageURL() {
   return $pageURL; 
 }
 ```
+
 
 * **下载文件**
 
@@ -137,6 +144,7 @@ function download($filename){
 // 使用
 download('/down/test_45f73e852.zip');
 ```
+
 
 * **获取用户IP**
 
@@ -159,6 +167,7 @@ function getIp() {
   return ($ip); 
 }
 ```
+
 
 * **检测参数是否有SQL注入的可能性**
 

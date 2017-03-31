@@ -1,7 +1,6 @@
-# -PHP-
 ## 这些PHP函数你应该惠存，以备不时之需
 
-* ***PHP加密/解密  使用的是base64和md5***
+* **PHP加密/解密  使用的是base64和md5**
 
 ```php
 // PHP加密/解密  使用的是base64和md5
@@ -22,7 +21,7 @@ echo encryptDecrypt('password', 'Helloweba',0);
 echo encryptDecrypt('password', 'z0JAx4qMwcF+db5TNbp/xwdUM84snRsXvvpXuaCa4Bk=',1);
 ```
 
-* 生成随机字符串
+* **生成随机字符串**
 
 ```php
 // 生成随机字符串
@@ -36,7 +35,7 @@ function generateRandomString($length = 10) {
 }
 ```
 
-* 得到文件扩展名
+* **得到文件扩展名**
 
 ```php
 // 得到文件扩展名
@@ -50,7 +49,7 @@ $filename = 'mydoc.doc';
 echo getExtension($filename);
 ```
 
-* 把获取的文件大小结果进行格式化
+* **把获取的文件大小结果进行格式化**
 
 ```php
 // 把获取的文件大小结果进行格式化
@@ -68,7 +67,7 @@ $thefile = filesize('test_file.mp3');
 echo formatSize($thefile);
 ```
 
-* 替换标签
+* **替换标签**
 
 ```php
 // 替换标签
@@ -84,7 +83,7 @@ $replace_array = array('{b}' => '','{/b}' => '','{br}' => '
 echo stringParser($string,$replace_array);
 ```
 
-* 获取文件目录列表
+* **获取文件目录列表**
 
 ```php
 // 获取文件目录列表
@@ -103,7 +102,7 @@ function listDirFiles($DirPath){
 listDirFiles('home/some_folder/');
 ```
 
-* 获取当前页面的URL
+* **获取当前页面的URL**
 
 ```php
 // 获取当前页面的URL
@@ -120,7 +119,7 @@ function curPageURL() {
 }
 ```
 
-* 下载文件
+* **下载文件**
 
 ```php
 // 下载文件
@@ -139,7 +138,7 @@ function download($filename){
 download('/down/test_45f73e852.zip');
 ```
 
-* 获取用户IP
+* **获取用户IP**
 
 ```php
 // 获取用户IP
@@ -161,7 +160,7 @@ function getIp() {
 }
 ```
 
-* 检测参数是否有SQL注入的可能性
+* **检测参数是否有SQL注入的可能性**
 
 ```php
 // 检测参数是否有SQL注入的可能性

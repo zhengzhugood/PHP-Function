@@ -16,6 +16,7 @@ echo encryptDecrypt('password', 'Helloweba',0);
 //Decryption
 echo encryptDecrypt('password', 'z0JAx4qMwcF+db5TNbp/xwdUM84snRsXvvpXuaCa4Bk=',1);
 
+// ===============================================================================================================================
 
 // TODO 生成随机字符串
 function generateRandomString($length = 10) { 
@@ -27,6 +28,7 @@ function generateRandomString($length = 10) {
   return $randomString; 
 }
 
+// ===============================================================================================================================
 
 // TODO 得到文件扩展名
 function getExtension($filename){ 
@@ -38,6 +40,7 @@ function getExtension($filename){
 $filename = 'mydoc.doc'; 
 echo getExtension($filename);
 
+// ===============================================================================================================================
 
 // TODO 把获取的文件大小结果进行格式化
 function formatSize($size) { 
@@ -53,6 +56,7 @@ function formatSize($size) {
 $thefile = filesize('test_file.mp3'); 
 echo formatSize($thefile);
 
+// ===============================================================================================================================
 
 // TODO 替换标签
 function stringParser($string,$replacer){ 
@@ -66,6 +70,7 @@ $replace_array = array('{b}' => '','{/b}' => '','{br}' => '
 '); 
 echo stringParser($string,$replace_array);
 
+// ===============================================================================================================================
 
 // TODO 获取文件目录列表
 function listDirFiles($DirPath){ 
@@ -82,6 +87,7 @@ function listDirFiles($DirPath){
 // 使用
 listDirFiles('home/some_folder/');
 
+// ===============================================================================================================================
 
 // TODO  获取当前页面的URL
 function curPageURL() { 
@@ -96,6 +102,7 @@ function curPageURL() {
   return $pageURL; 
 }
 
+// ===============================================================================================================================
 
 // TODO 下载文件
 function download($filename){ 
@@ -112,6 +119,7 @@ function download($filename){
 // 使用
 download('/down/test_45f73e852.zip');
 
+// ===============================================================================================================================
 
 // TODO 获取用户IP
 function getIp() { 
@@ -131,6 +139,7 @@ function getIp() {
   return ($ip); 
 }
 
+// ===============================================================================================================================
 
 // TODO 检测参数是否有SQL注入的可能性
 function injCheck($sql_str) {  

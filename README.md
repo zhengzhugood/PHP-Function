@@ -21,6 +21,7 @@ echo encryptDecrypt('password', 'Helloweba',0);
 echo encryptDecrypt('password', 'z0JAx4qMwcF+db5TNbp/xwdUM84snRsXvvpXuaCa4Bk=',1);
 ```
 
+---
 
 * **生成随机字符串**
 

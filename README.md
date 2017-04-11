@@ -37,6 +37,7 @@ function generateRandomString($length = 10) {
 }
 ```
 
+---
 
 * **得到文件扩展名**
 
@@ -52,6 +53,7 @@ $filename = 'mydoc.doc';
 echo getExtension($filename);
 ```
 
+---
 
 * **把获取的文件大小结果进行格式化**
 
@@ -71,6 +73,7 @@ $thefile = filesize('test_file.mp3');
 echo formatSize($thefile);
 ```
 
+---
 
 * **替换标签**
 
@@ -88,6 +91,7 @@ $replace_array = array('{b}' => '','{/b}' => '','{br}' => '
 echo stringParser($string,$replace_array);
 ```
 
+---
 
 * **获取文件目录列表**
 
@@ -108,6 +112,7 @@ function listDirFiles($DirPath){
 listDirFiles('home/some_folder/');
 ```
 
+---
 
 * **获取当前页面的URL**
 
@@ -126,6 +131,7 @@ function curPageURL() {
 }
 ```
 
+---
 
 * **下载文件**
 
@@ -146,6 +152,7 @@ function download($filename){
 download('/down/test_45f73e852.zip');
 ```
 
+---
 
 * **获取用户IP**
 
@@ -169,6 +176,7 @@ function getIp() {
 }
 ```
 
+---
 
 * **检测参数是否有SQL注入的可能性**
 
